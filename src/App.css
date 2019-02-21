@@ -31,3 +31,59 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  text-align: center;
+}
+.item-list {
+  height: 815px;
+  width: 40%;
+  margin: auto
+}
+.item {
+  width: 100%;
+  height: 100px;
+  display: block;
+  align-content: center;
+  vertical-align: middle;
+  border: 1px solid slategrey;
+  border-radius: 3px;
+  margin: 0 0 10px 0;
+}
+.count {
+  display: inline;
+  width: 25%;
+  height: 25px;
+  margin: auto 0;
+}
+.name {
+  display: inline;
+  width: 40%;
+  height: 25px;
+  margin: auto 0;
+}
+.vote-button {
+  display: inline;
+  width: 25%;
+  height: auto;
+  text-align: center;
+  font-size: 24px;
+  align-content: center;
+  margin: auto 0;
+  border: 1px solid slategray;
+  border-radius: 3px;
+  padding: 5px;
+}
+.vote-button:hover {
+  cursor: pointer;
+  background-color: grey;
+  color: white;
+}
+.item-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 25px;
+  margin: 30px auto;
+  width: 80%;
+}
